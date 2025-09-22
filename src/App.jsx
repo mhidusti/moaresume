@@ -3,13 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      {/* Converted from original HTML */}
-      {/*
-        Paste your original HTML body content here as JSX.
-        Remember to adjust class -> className and self-close tags.
-      */}
-    </>
+    <div className="App">
+      <h1 style={{ fontFamily: 'Peyda' }}>سلام ❤️ فونت Peyda کار میکنه!</h1>
+      <p style={{ fontFamily: 'Farsi-Thin' }}>این متن با فونت فارسی هست</p>
+    </div>
   );
 }
 
