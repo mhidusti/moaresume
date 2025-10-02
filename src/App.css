@@ -1,6 +1,34 @@
 /* ===========================
    Peyda Fonts (WOFF only)
-   =========================== */
+  =========================== */
+/* استایل پایه برای پروژه */
+body {
+  font-family: 'IRANSans', sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* یه استایل تست برای مطمئن شدن */
+h1 {
+  color: brown;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.my-btn {
+  background-color: brown;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.my-btn:hover {
+  background-color: #a0522d;
+}
 
 @font-face {
   font-family: 'Peyda';
@@ -85,13 +113,4 @@
   font-display: swap;
 }
 /* App.css */
-
-/* یه استایل پایه برای کل پروژه */
-body {
-  font-family: 'IRANSans', sans-serif;
-  direction: rtl;
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-}
 
