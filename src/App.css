@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-Thin.woff') format('woff');
+  src: url('./assets/fonts/Peyda-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-ExtraLight.woff') format('woff');
+  src: url('./assets/fonts/Peyda-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-Light.woff') format('woff');
+  src: url('./assets/fonts/Peyda-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-Regular.woff') format('woff');
+  src: url('./assets/fonts/Peyda-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-Medium.woff') format('woff');
+  src: url('./assets/fonts/Peyda-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-SemiBold.woff') format('woff');
+  src: url('./assets/fonts/Peyda-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -52,7 +52,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-Bold.woff') format('woff');
+  src: url('./assets/fonts/Peyda-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-ExtraBold.woff') format('woff');
+  src: url('./assets/fonts/Peyda-ExtraBold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -68,7 +68,7 @@
 
 @font-face {
   font-family: 'Peyda';
-  src: url('./fonts/Peyda-Black.woff') format('woff');
+  src: url('./assets/fonts/Peyda-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -79,8 +79,19 @@
    =========================== */
 @font-face {
   font-family: 'Farsi-Thin';
-  src: url('./fonts/fa-thin-100.ttf') format('truetype');
+  src: url('./assets/fonts/fa-thin-100.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
+/* App.css */
+
+/* یه استایل پایه برای کل پروژه */
+body {
+  font-family: 'IRANSans', sans-serif;
+  direction: rtl;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
