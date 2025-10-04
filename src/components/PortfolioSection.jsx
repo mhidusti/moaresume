@@ -9,10 +9,11 @@ const PortfolioSection = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="section-header text-center">
-                <h2 className="section-title">My Recent Works</h2>
-                <p>
-                  We put your ideas and thus your wishes in the form of a unique
-                  web project that inspires you and your customers.
+                <h2 className="section-title wow fadeInUp" data-wow-delay=".3s">
+                  پروژه های اخیر
+                </h2>
+                <p className="wow fadeInUp" data-wow-delay=".4s">
+                  ما ایده های شما و در نتیجه خواسته های شما را در قالب یک پروژه وب منحصر به فرد قرار می دهیم که الهام بخش شما و مشتریان شما باشد.
                 </p>
               </div>
             </div>
@@ -20,28 +21,28 @@ const PortfolioSection = () => {
 
           <div className="row">
             <div className="col-md-12">
-              <div className="portfolio-filter text-center">
+              <div className="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
                 <div className="button-group filter-button-group">
-                  <button data-filter="*" className="active">All</button>
+                  <button data-filter="*" className="active">همه</button>
                   <button data-filter=".uxui">UX/UI</button>
-                  <button data-filter=".branding">Branding</button>
-                  <button data-filter=".mobile-app">Apps</button>
+                  <button data-filter=".branding">برندینگ</button>
+                  <button data-filter=".mobile-app">اپیکیشن</button>
                   <div className="active-bg"></div>
                 </div>
               </div>
 
-              <div className="portfolio-box">
+              <div className="portfolio-box wow fadeInUp" data-wow-delay=".6s">
                 <div className="portfolio-sizer"></div>
                 <div className="gutter-sizer"></div>
 
-                {/* Portfolio Items */}
+                {/** Portfolio Items **/}
                 <div className="portfolio-item branding">
                   <div className="image-box">
                     <img src="assets/img/portfolio/2.jpg" alt="" />
                   </div>
                   <div className="content-box">
-                    <h3 className="portfolio-title">Deloitte</h3>
-                    <p>Project was about precision and information.</p>
+                    <h3 className="portfolio-title">دیلویت</h3>
+                    <p>پروژه ای در مورد دقت و اطلاعات بالا بود.</p>
                     <i className="flaticon-up-right-arrow"></i>
                     <button data-mfp-src="#portfolio-wrapper" className="portfolio-link modal-popup"></button>
                   </div>
@@ -52,8 +53,8 @@ const PortfolioSection = () => {
                     <img src="assets/img/portfolio/1.jpg" alt="" />
                   </div>
                   <div className="content-box">
-                    <h3 className="portfolio-title">New Age</h3>
-                    <p>Project was about precision and information.</p>
+                    <h3 className="portfolio-title">عصر جدید</h3>
+                    <p>پروژه ای در مورد دقت و اطلاعات بالا بود.</p>
                     <i className="flaticon-up-right-arrow"></i>
                     <button data-mfp-src="#portfolio-wrapper" className="portfolio-link modal-popup"></button>
                   </div>
@@ -64,8 +65,8 @@ const PortfolioSection = () => {
                     <img src="assets/img/portfolio/3.jpg" alt="" />
                   </div>
                   <div className="content-box">
-                    <h3 className="portfolio-title">Sebastian</h3>
-                    <p>Project was about precision and information.</p>
+                    <h3 className="portfolio-title">سباستین</h3>
+                    <p>پروژه ای در مورد دقت و اطلاعات بالا بود.</p>
                     <i className="flaticon-up-right-arrow"></i>
                     <button data-mfp-src="#portfolio-wrapper" className="portfolio-link modal-popup"></button>
                   </div>
@@ -76,8 +77,8 @@ const PortfolioSection = () => {
                     <img src="assets/img/portfolio/4.jpg" alt="" />
                   </div>
                   <div className="content-box">
-                    <h3 className="portfolio-title">Mochnix</h3>
-                    <p>Project was about precision and information.</p>
+                    <h3 className="portfolio-title">موچینکس</h3>
+                    <p>پروژه ای در مورد دقت و اطلاعات بالا بود.</p>
                     <i className="flaticon-up-right-arrow"></i>
                     <button data-mfp-src="#portfolio-wrapper" className="portfolio-link modal-popup"></button>
                   </div>
@@ -99,48 +100,58 @@ const PortfolioSection = () => {
         <div className="popup_modal_content">
           <div className="portfolio_info">
             <div className="portfolio_info_text">
-              <h2 className="title">DStudio</h2>
+              <h2 className="title">استدیو دی</h2>
               <div className="desc">
                 <p>
-                  They are was greater open above shelter lets itself under appear sixth open gathering...
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
                 </p>
               </div>
               <a href="#" className="btn tj-btn-primary">
-                live preview <i className="fal fa-arrow-right"></i>
+                پیش نمایش زنده <i className="fal fa-arrow-right"></i>
               </a>
             </div>
             <div className="portfolio_info_items">
               <div className="info_item">
-                <div className="key">Category</div>
-                <div className="value">Web Design</div>
+                <div className="key">دسته بندی</div>
+                <div className="value">طراحی وبسایت</div>
               </div>
               <div className="info_item">
-                <div className="key">Client</div>
-                <div className="value">Artboard Studio</div>
+                <div className="key">مشتری</div>
+                <div className="value">استودیو آرت بورد</div>
               </div>
               <div className="info_item">
-                <div className="key">Start Date</div>
-                <div className="value">August 20, 2023</div>
+                <div className="key">تاریخ شروع</div>
+                <div className="value">اردیبهشت ماه ، سال 1403</div>
               </div>
               <div className="info_item">
-                <div className="key">Designer</div>
-                <div className="value"><a href="#">ThemeJunction</a></div>
+                <div className="key">طراح</div>
+                <div className="value"><a href="#">راوی جی وی</a></div>
               </div>
             </div>
+          </div>
 
-            <div className="portfolio_gallery owl-carousel">
-              <div className="gallery_item">
-                <img src="assets/img/portfolio-gallery/p-gallery-1.jpg" alt="" />
-              </div>
-              <div className="gallery_item">
-                <img src="assets/img/portfolio-gallery/p-gallery-2.jpg" alt="" />
-              </div>
-              <div className="gallery_item">
-                <img src="assets/img/portfolio-gallery/p-gallery-3.jpg" alt="" />
-              </div>
-              <div className="gallery_item">
-                <img src="assets/img/portfolio-gallery/p-gallery-4.jpg" alt="" />
-              </div>
+          <div className="portfolio_gallery owl-carousel">
+            <div className="gallery_item">
+              <img src="assets/img/portfolio-gallery/p-gallery-1.jpg" alt="" />
+            </div>
+            <div className="gallery_item">
+              <img src="assets/img/portfolio-gallery/p-gallery-2.jpg" alt="" />
+            </div>
+            <div className="gallery_item">
+              <img src="assets/img/portfolio-gallery/p-gallery-3.jpg" alt="" />
+            </div>
+            <div className="gallery_item">
+              <img src="assets/img/portfolio-gallery/p-gallery-4.jpg" alt="" />
+            </div>
+          </div>
+
+          <div className="portfolio_description">
+            <h2 className="title">توضیحات پروژه</h2>
+            <div className="desc">
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+              </p>
             </div>
           </div>
         </div>
